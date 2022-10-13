@@ -5,14 +5,18 @@
     padding: 0;
     margin: 0;
  }
-  
+body{
+  background: url(https://img.freepik.com/vetores-gratis/fundo-de-particulas-abstratas-tecnologia-realista_52683-33063.jpg?w=2000   ) fixed  ;
+   
+}
  /*Cabeçalho do site*/
  header{
     height: 10vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient( to right, #af43be,#01012b);
+    
     margin-bottom: 10vh;
+    
  }
   
  /* Logo do site*/
@@ -29,25 +33,29 @@
  h1 {
     padding-left: 40px;
     justify-content: center;
+      
  }
   
  nav {
  padding-right: 100px ;
  display: flex;
- padding-left: 500px;
+ padding-left: 1000px;
+
+ 
  }
   
  a {
     padding-right: 20px;
     text-decoration: none;
-    color: black;
+    color:rgb(255, 255, 255);
+
     cursor: pointer;
     background-color: transparent;
     
  }
   
  a:hover{
-    color: #45f3ff;
+    color: #af43be;
    
  }
   
@@ -58,7 +66,13 @@
    cursor:pointer;
    background-color: transparent;
    font-size: 12px;
+   color: rgb(255, 255, 255);
 
+ }
+
+ button:hover {
+   color: rgb(255, 254, 254);
+   background-color: #af43be ;
  }
   
   
@@ -149,8 +163,14 @@
   from {opacity: .4}
   to {opacity: 1}
  }
- .h2{
-   padding-left: 50px ;
- }
  
+ 
+
+ .informations{
+   font-family:   "Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   
+   
+ }
  
