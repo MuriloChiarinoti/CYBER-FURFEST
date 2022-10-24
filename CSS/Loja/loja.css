@@ -42,6 +42,10 @@
     font-weight: 400;
 }
 
+.add {
+    background-color: blue;
+}
+
 .price-col ul{
     text-align: left;
     margin: 20px 0;
@@ -59,7 +63,40 @@
     font-weight: bold;
     margin-right: 8px;
 }
-.price-col button{
+.add1{
+    width: 100%;
+    padding:14px 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #7a04eb;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin-top: 125px;
+}
+
+.price-col button:hover{
+    background: #7a04eb ;
+}
+
+.add2{
+    width: 100%;
+    padding:14px 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #7a04eb;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin-top: 90px;
+}
+
+
+.add3{
     width: 100%;
     padding:14px 0;
     background: transparent;
@@ -72,7 +109,4 @@
     transition: background 0.5s;
 }
 
-.price-col button:hover{
-    background: #7a04eb ;
-}
 
