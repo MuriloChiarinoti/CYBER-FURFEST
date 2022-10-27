@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  'Poppins', san-serif;
+}
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh; 
+ }
+ .Logo {
+    height:100%;
+}  
+.title{
+    background-color: #af43be;
+}
+
+h1 {
+    
+    padding-left: 40px;
+    justify-content: center;     
+ }
+ nav {
+    display: flex;
+    padding-left: 550px;
+}
+a {
+    padding-right: 20px;
+    text-decoration: none;
+    color:#af43be;
+    cursor: pointer;
+    background-color: transparent; 
+}
+a:hover{
+    color: #af43be; 
+}
+button{
+    width: 60px;
+    border-radius: 6px;
+    padding:2px;
+    cursor:pointer;
+    background-color: transparent;
+    font-size: 12px;
+    color: #af43be;
+}
+  
+button:hover {
+    color:#b7c1de;
+    background-color: #af43be ;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #b7c1de
+}
+.row{
+    width: 100%;
+    padding: 50px 100px;
+}
+.image{
+    width: 30%;
+    margin-left: 250px;
+    float: top;
+}
+.image img{
+    width: 100vh;
+    height: auto;   
+    text-align: center;
+}
+.content{
+    width: 60%;
+    float:bottom;
+    margin-bottom: 50px;
+}
+.content h1{
+    font-size: 40px;
+    letter-spacing: 3.5px;
+    display: flex;
+    padding-left: 455px;
+    margin-top: 40px;
+    color:#222;
+}
+.content h2{
+    font-size: 30px;
+    color:#28292D;
+    margin-top:25px;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 1.5;
+    font-family: serif;
+}
+
+.video{
+
+    display: flex;
+    padding-left: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+.image{
+    width: 30%;
+    float: none;
+ }
+ .content{
+    width: 60%;
+    float:none;
+    margin-bottom: 50px;
+ }
+}
+
+   
+     

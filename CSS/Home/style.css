@@ -6,24 +6,20 @@
     margin: 0;
  }
 body{
-  background: url(https://img.freepik.com/vetores-gratis/fundo-de-particulas-abstratas-tecnologia-realista_52683-33063.jpg?w=2000   ) fixed  ;
+ background-color:#01012b; /*verificar color*/
    
 }
- /*Cabeçalho do site*/
  header{
     height: 10vh;
     display: flex;
     align-items: center;
-    
-    margin-bottom: 10vh;
-    
+    margin-bottom: 10vh; 
+    background: linear-gradient(to right, #7a04eb,#8386f5);
  }
   
- /* Logo do site*/
  .Logo {
   height:100%;
  }
- /* Imagens do evento*/
   
  .mySlides fade{
   padding-top: 20vh;
@@ -32,31 +28,34 @@ body{
   
  h1 {
     padding-left: 40px;
-    justify-content: center;
-      
+    justify-content: center;   
+    display: flex;  
  }
   
  nav {
  padding-right: 100px ;
  display: flex;
  padding-left: 1000px;
-
- 
  }
-  
- a {
+.material-icons{
+   background-color:none;
+   color:#01012b;
+   cursor: pointer;
+}
+.material-icons:hover{
+   background-color:none;
+   color: #01012b;
+}
+a {
     padding-right: 20px;
     text-decoration: none;
-    color:rgb(255, 255, 255);
-
+    color:#01012b;
     cursor: pointer;
-    background-color: transparent;
-    
+    background-color: transparent; 
  }
   
  a:hover{
-    color: #af43be;
-   
+    color: #af43be; 
  }
   
  button{
@@ -65,13 +64,12 @@ body{
    padding:2px;
    cursor:pointer;
    background-color: transparent;
-   font-size: 12px;
-   color: rgb(255, 255, 255);
+   font-size: smaller;
 
  }
 
  button:hover {
-   color: rgb(255, 254, 254);
+   color: #01012b;
    background-color: #af43be ;
  }
   
@@ -119,7 +117,7 @@ body{
   
  /* Caption text */
  .text {
-  color: #f2f2f2;
+  color: #8386f5;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -163,14 +161,10 @@ body{
   from {opacity: .4}
   to {opacity: 1}
  }
- 
- 
 
  .informations{
    font-family:   "Helvetica Neue",Helvetica,Arial,sans-serif;
    font-size: 20px;
    color: rgb(255, 255, 255);
-   
-   
  }
  
