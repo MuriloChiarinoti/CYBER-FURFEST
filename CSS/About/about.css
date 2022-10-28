@@ -5,117 +5,90 @@
     padding:0;
     box-sizing: border-box;
     font-family:  'Poppins', san-serif;
+
 }
 header{
+    background-image: linear-gradient(rgb(69, 156, 209), #082cbb);
     height: 10vh;
+   
     display: flex;
     align-items: center;
     margin-bottom: 10vh; 
+    justify-content: center;
+
  }
  .Logo {
     height:100%;
 }  
-.title{
-    background-color: #af43be;
-}
 
 h1 {
     
     padding-left: 40px;
     justify-content: center;     
  }
- nav {
-    display: flex;
-    padding-left: 550px;
-}
-a {
-    padding-right: 20px;
-    text-decoration: none;
-    color:#af43be;
-    cursor: pointer;
-    background-color: transparent; 
-}
-a:hover{
-    color: #af43be; 
-}
-button{
-    width: 60px;
-    border-radius: 6px;
-    padding:2px;
-    cursor:pointer;
-    background-color: transparent;
-    font-size: 12px;
-    color: #af43be;
-}
-  
-button:hover {
-    color:#b7c1de;
-    background-color: #af43be ;
-}
+ 
+
 
 .wrapper{
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-color: #b7c1de
+    
 }
 .row{
     width: 100%;
     padding: 50px 100px;
 }
 .image{
-    width: 30%;
-    margin-left: 250px;
-    float: top;
-}
-.image img{
-    width: 100vh;
-    height: auto;   
-    text-align: center;
-}
-.content{
-    width: 60%;
-    float:bottom;
-    margin-bottom: 50px;
-}
-.content h1{
-    font-size: 40px;
-    letter-spacing: 3.5px;
+    
     display: flex;
-    padding-left: 455px;
-    margin-top: 40px;
-    color:#222;
-}
-.content h2{
-    font-size: 30px;
-    color:#28292D;
-    margin-top:25px;
-}
-.content p{
-    font-size: 20px;
-    margin-top: 25px;
-    line-height: 1.5;
-    font-family: serif;
+    justify-content: center;
 }
 
-.video{
-
+.sobre {
     display: flex;
-    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 
-@media screen and (max-width: 768px) {
-.image{
-    width: 30%;
-    float: none;
- }
- .content{
-    width: 60%;
-    float:none;
-    margin-bottom: 50px;
- }
+.content h2 {
+    margin-top: 20px;
 }
 
+.content p {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.video {
+    display: flex;
+    justify-content: center ;
+}
    
+
+.back {
+
+    display: flex;
+    margin-left: 1800px;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+    align-items: center;
+    background-color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        
+    }
      
+    button:hover{
+        background-color:rgb(114, 155, 213);
+    }
