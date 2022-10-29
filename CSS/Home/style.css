@@ -6,7 +6,10 @@
     margin: 0;
  }
 
- header{
+
+header{
+    position: fixed;
+    top: 0;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -85,13 +88,24 @@ a {
    justify-content: center;
    align-items: center;
    font-size: 30px;
-   margin-top: 40px;
+   margin-top: 100px;
+   font-weight: bold;
 }
 
- p {
-   margin-top: 40px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 80px;
+   p {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 100px;
+      font-size: 25px;
+      
+ }
+
+ td{
+   font-size: 20px;
+ }
+
+ .historia {
+   margin-bottom: 40px;
  }
